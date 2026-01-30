@@ -1,0 +1,34 @@
+
+/* Page styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+/* Canvas */
+canvas {
+  border: 2px solid black;
+  background: white;
+  cursor: crosshair;
+}
+
+/* Toolbar */
+.toolbar {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+/* Cursor indicator */
+.cursor {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  pointer-events: none;
+}

@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Collaborative Canvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🎨 Real-Time Collaborative Canvas</h2>
+
+<!-- Toolbar -->
+<div class="toolbar">
+  <input type="color" id="colorPicker">
+  <button id="brush">Brush</button>
+  <button id="eraser">Eraser</button>
+  <button id="undo">Undo</button>
+</div>
+
+<!-- Drawing area -->
+<canvas id="canvas" width="900" height="450"></canvas>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="websocket.js"></script>
+<script src="canvas.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
